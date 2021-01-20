@@ -282,7 +282,7 @@ def main():
             ans = input()
             if is_yes(ans): state = 5
             elif is_no(ans): state = 0
-            elif ans == '0': state = 0
+            # elif ans == '0': state = 0
             else: 
                 print('Wrong Input, Input again')
                 state = 3
